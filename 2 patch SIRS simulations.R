@@ -17,8 +17,8 @@ params <- c(
   rho = 0.005,        #Loss of immunity
   epsilon = 0.0003,    #Birth rate
   delta = 0.0003,      #Death rate
-  mu_in = 0.2,      #Rate of migration from peripheral patches to central patch
-  mu_out = 0.05,     #Rate of migration to peripheral patches from central patch
+  mu_in = 0.2,      #Rate of migration from patch 1 to patch 2
+  mu_out = 0.05,     #Rate of migration from patch 2 to patch 1
   
   
   N = patchPopSize
